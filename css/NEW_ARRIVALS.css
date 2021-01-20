@@ -1,0 +1,43 @@
+.new h2{
+    margin-bottom: 30px; 
+}
+.section-title{
+    margin-top: 50px;
+}
+
+.new__container{
+    row-gap: 2rem;
+}
+
+.new__box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-color);
+    overflow: hidden;
+}
+.arrivals__new{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem .75rem;
+    font-size: var(--small-font-size);
+}
+
+.new__box:hover .new__link{
+    bottom: 0;
+}
+
+.new__link{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 89, 71, .2);
+    transition: .3s;
+}
